@@ -36,7 +36,7 @@ const loadIssueDetail = async (id) => {
   manageSpinner(false);
 }
 
-// api theke data niye card make
+// api load  and card make
 const displayIssueDetails = (issue) => {
 
   const detailsBox = document.getElementById("details-container");
